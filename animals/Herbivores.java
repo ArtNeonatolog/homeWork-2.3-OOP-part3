@@ -28,10 +28,12 @@ public class Herbivores extends Mammals {
 
     @Override
     public void walk() {
+        System.out.println("Травоядные гуляют не спеша, кушая траву и листву, если им не угрожает опасность");
 
     }
 
     private void graze () {
+        System.out.println("Травоядные пасутся на лугах, пастбищах едят траву и листья");
 
     }
 

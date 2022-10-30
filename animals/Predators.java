@@ -27,10 +27,12 @@ public class Predators extends Mammals {
 
     @Override
     public void walk() {
+        System.out.println("Хищники вне охоты спокойно гуляют по своему угодью");
 
     }
 
     private void hunt () {
+        System.out.println("Хищники использую для охоты разнооразный арсенал: острые зубы, когти, выброс ядовитых веществ");
 
     }
 

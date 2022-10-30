@@ -32,6 +32,7 @@ public class Amphibians extends Animals {
 
     @Override
     public void sleep() {
+        System.out.println("Земноводные спят на суше или закапываются в землю");
 
     }
 
@@ -41,6 +42,7 @@ public class Amphibians extends Animals {
     }
 
     private void hunt () {
+        System.out.println("Для охоты используют на мух, комаров, личинок, жуков");
 
     }
 

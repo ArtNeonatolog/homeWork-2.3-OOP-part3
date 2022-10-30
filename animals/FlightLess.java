@@ -27,10 +27,12 @@ public class FlightLess extends Birds {
 
     @Override
     public void hunt() {
+        System.out.println("Нелетающие птицы охотятся на рыбу (пингвины), насекомых, мелких животных (страусы)");
 
     }
 
     private void walk () {
+        System.out.println("Нелетающие птицы гуляют не спеша, если им не угрожает опасность");
 
     }
 

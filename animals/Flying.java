@@ -20,10 +20,12 @@ public class Flying extends Birds {
 
     @Override
     public void hunt() {
+        System.out.println("Летающие птицы охотятся на рыбу, мелких грызунов, мелких животных, других птиц");
 
     }
 
     private void fly () {
+        System.out.println("Летающие птицы летают на разной высоте, с разной скоростью продолжительное время");
 
     }
 

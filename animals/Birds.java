@@ -32,12 +32,13 @@ public abstract class Birds extends Animals {
 
     @Override
     public void sleep() {
-        System.out.println("Основной способ передвижения птиц - полет с помощью крыльев");
+        System.out.println("Птицы могут спать как сидя, так и стоя даже на одной ноге, при этом либо просто закрывая глаза (во время дремоты), либо пряча голову под крыло");
 
     }
 
     @Override
     public void move() {
+        System.out.println("Основной способ передвижения птиц - полет с помощью крыльев");
 
     }
 
